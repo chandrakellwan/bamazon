@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/chandrakellwan/bamazon.git"
   },
-  "author": "",
+  "author": "Chandra Kellwan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/chandrakellwan/bamazon/issues"
@@ -19,6 +19,7 @@
   "dependencies": {
     "console.table": "^0.8.0",
     "inquirer": "^3.2.1",
-    "mysql": "^2.13.0"
+    "mysql": "^2.13.0",
+    "require": "^2.4.20"
   }
 }
