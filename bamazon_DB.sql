@@ -11,16 +11,4 @@ CREATE TABLE products (
         
         );
         
-INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
-VALUES (101, "Buy Out Riddim", "Music Records", 20.00, 10);
 
-INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
-VALUES (102, "Aussie Hair Gel", "Health and Beauty", 7.00, 20);
-
-INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
-VALUES (103, "Guns and Roses T-Shirt", "Apparel", 25.00, 5);
-
-INSERT INTO products (item_id, product_name, department_name, price, stock_quantity)
-VALUES (104, "Apple TV 4th Generation", "Electronics", 150.00, 3);
-
-select * from products;
