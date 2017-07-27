@@ -49,7 +49,7 @@ function productPurchase() {
 
         //create table: head and column size
         var table = new Table({
-            head: ['ID', 'PRODUCT NAME', 'DEPARTMENT NAME', '$ PRICE', 'QUANTY'],
+            head: ['ID', 'PRODUCT NAME', 'DEPARTMENT NAME', '$ PRICE', 'QUANTITY'],
             colWidths: [10, 35, 25, 12, 10]
         });
 
