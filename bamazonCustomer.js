@@ -23,8 +23,6 @@ connection.connect(function(err) {
 		throw err;
 	}
 	
-	// call the start function
-
 })
 
 console.log('');
@@ -45,6 +43,7 @@ console.log('|-------------------------- B   A   M   A   Z   O   N -------------
 console.log('');
 console.log('|--------------------------------------------------------------------------------|');
 
+// created the start function
 var start = function () {
 
     connection.query('SELECT * FROM products', function (err, result) {
@@ -68,6 +67,7 @@ var start = function () {
     })
 }
 
+// created function to grab products from database table
 var purchase = function () {
 
     connection.query('SELECT * FROM products', function (err, result) {
@@ -96,6 +96,7 @@ var purchase = function () {
                     return false;
                 }
             }
+          // function to calculate stock remaining  
         }]).then(function (answer) {
             var itemID = answer.itemID - 1
             var chosenProduct = result[itemID]
