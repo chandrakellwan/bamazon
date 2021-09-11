@@ -1,4 +1,4 @@
-# bamazon - Mock Online Store
+# Bamazon - Mock Online Store
 
 bamazonCustomer.js
 
